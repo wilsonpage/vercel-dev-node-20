@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "allowJs": true,
+    "alwaysStrict": true,
+    "skipLibCheck": true,
+    "checkJs": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowUnreachableCode": false,
+    "noImplicitThis": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "module": "CommonJS",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "sourceMap": true,
+    "lib": ["esnext", "dom"],
+    "noEmit": true
+  },
+
+  "exclude": ["node_modules", "public"],
+  "include": ["*.d.ts", "**/*.ts"]
+}
